@@ -9,7 +9,6 @@ This is my solution to the [Advice Generator App challenge on Frontend Mentor](h
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
@@ -40,16 +39,6 @@ Users should be able to:
 - Vanilla JavaScript (Async/Await)
 - [Advice Slip API](https://api.adviceslip.com)
 - [Manrope](https://fonts.google.com/specimen/Manrope) - Google Fonts
-
-### What I learned
-
-**Semantic HTML over divs** — I was intentional about using the right element for the right job. The card is an `<article>` because it's self-contained content. The advice is a `<blockquote>` since it's genuinely a quote. The button uses `<button type="button">` with an `aria-label` for accessibility since it only contains an image.
-
-**Fetch API with Async/Await** — I used `async/await` over `.then()` chaining for readability. I also learned that `fetch()` only rejects on network failures — a 404 or 500 still resolves — so I check `response.ok` explicitly and throw manually.
-
-**Cache busting** — The Advice Slip API caches responses. Appending `?timestamp=${Date.now()}` to the URL makes every request unique, ensuring fresh advice on every click.
-
-**UX and accessibility during loading** — I disable the button during fetch to prevent race conditions from rapid clicks, and use `aria-busy="true"` to communicate the loading state to assistive technologies. The `finally` block always re-enables the button whether the request succeeds or fails.
 
 
 ### Useful resources
