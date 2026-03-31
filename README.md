@@ -6,14 +6,12 @@ This is my solution to the [Advice Generator App challenge on Frontend Mentor](h
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
-  - [AI Collaboration](#ai-collaboration)
 - [Author](#author)
 
 ## Overview
